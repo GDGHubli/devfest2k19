@@ -46,7 +46,7 @@ const useStyles = makeStyles({
   heroLeft: {
     position: 'relative',
     paddingTop: '20vh',
-    minHeight: '100vh'
+    minHeight: '600px'
   },
   heroLeftContent: {
     // padding: '20px',
