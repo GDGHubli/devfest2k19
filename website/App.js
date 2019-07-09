@@ -211,8 +211,9 @@ export default function App() {
         </section> */}
       <footer>
         <Grid container component="main" style={{ padding: '50px 0' }}>
-          <Grid item xs={12} sm={12} md={4} component={Paper} elevation={0} style={{ paddingTop: '30px' }}>
-            <img height="30px" src="/assets/images/gdghubli-logo-wide-transparent.png" />
+          <Grid item xs={12} sm={12} md={4} component={Paper} elevation={0} style={{ paddingTop: '30px', textAlign: 'left' }}>
+            <img height="30px" src="/assets/images/gdghubli-logo-wide-transparent.png" /> <br/><br/>
+            <img height="40px" src="/assets/images/wtm-wide.png" />
           </Grid>
           <Grid item xs={12} sm={12} md={4} elevation={0}>
             <List>
