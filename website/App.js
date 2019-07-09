@@ -54,6 +54,13 @@ const useStyles = makeStyles({
   paragraph: {
     fontSize: '17px',
     lineHeight: '28px'
+  },
+  notifyBar: {
+    width: '100%',
+    padding: '10px',
+    background: '#b8e994',
+    color: '#0a3d62',
+    textAlign: 'center'
   }
 });
 
@@ -71,6 +78,9 @@ export default function App() {
 
   return (
     <Container maxWidth="md">
+      <div className={classes.notifyBar}>
+        This website will be updated frequently. Follow us on <a style={{textDecoration: 'none', padding: '2px 10px', borderRadius: '10px', backgroundColor: 'rgba(256,256,256,.5)', color: '#1e3799'}} href="https://instagram.com/gdghubli">Instagram</a> to stay in the know
+      </div>
       <Grid container component="main">
         <Grid item xs={12} sm={8} md={5} component={Paper} elevation={0} className={classes.heroLeft}>
           {/* <img height="30px" src="/assets/images/gdghubli-logo-wide-transparent.png" /> */}
@@ -212,8 +222,8 @@ export default function App() {
       <footer>
         <Grid container component="main" style={{ padding: '50px 0' }}>
           <Grid item xs={12} sm={12} md={4} component={Paper} elevation={0} style={{ paddingTop: '30px', textAlign: 'left' }}>
-            <img height="30px" src="/assets/images/gdghubli-logo-wide-transparent.png" /> <br/><br/>
-            <img height="40px" src="/assets/images/wtm-wide.png" />
+            <img height="20px" src="/assets/images/gdghubli-logo-wide-transparent.png" /> <br/><br/>
+            <img height="30px" src="/assets/images/wtm-wide.png" />
           </Grid>
           <Grid item xs={12} sm={12} md={4} elevation={0}>
             <List>
