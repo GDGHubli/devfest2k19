@@ -79,7 +79,7 @@ export default function App() {
   return (
     <Container maxWidth="md">
       <div className={classes.notifyBar}>
-        This website will be updated frequently. Follow us on <a style={{textDecoration: 'none', padding: '2px 10px', borderRadius: '10px', backgroundColor: 'rgba(256,256,256,.5)', color: '#1e3799'}} href="https://instagram.com/gdghubli">Instagram</a> to stay in the know
+        This website will be updated frequently. Follow us on <a style={{ textDecoration: 'none', padding: '2px 10px', borderRadius: '10px', backgroundColor: 'rgba(256,256,256,.5)', color: '#1e3799' }} href="https://instagram.com/gdghubli">Instagram</a> to stay in the know
       </div>
       <Grid container component="main">
         <Grid item xs={12} sm={8} md={5} component={Paper} elevation={0} className={classes.heroLeft}>
@@ -93,8 +93,8 @@ export default function App() {
               DevFests are large, community-run developer events happening around the globe focused on community building and learning about Google’s technologies.
               </p>
             <p>
-              Tentative event date: 21st of September 2019
-              </p>
+              Event date: 28th of September 2019
+            </p>
             {/* <p className={classes.paragraph}>
                 Hosted by GDG Hubli, WTM Hubli, DevFest Hubli will cover multiple product areas such as (but are not limited to) Android, Firebase, Google Cloud Platform, Google Assistant, Flutter, machine learning with TensorFlow, and Mobile Web.
               </p> */}
@@ -222,8 +222,9 @@ export default function App() {
       <footer>
         <Grid container component="main" style={{ padding: '50px 0' }}>
           <Grid item xs={12} sm={12} md={4} component={Paper} elevation={0} style={{ paddingTop: '30px', textAlign: 'left' }}>
-            <img height="20px" src="/assets/images/gdghubli-logo-wide-transparent.png" /> <br/><br/>
-            <img height="30px" src="/assets/images/wtm-wide.png" />
+            <img height="20px" src="/assets/images/gdghubli-logo-wide-transparent.png" /> <br /><br />
+            <img height="30px" src="/assets/images/wtm-wide.png" /> <br /><br />
+            <img height="20px" src="/assets/images/dsc-wide.png" />
           </Grid>
           <Grid item xs={12} sm={12} md={4} elevation={0}>
             <List>
