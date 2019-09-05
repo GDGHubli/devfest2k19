@@ -26,6 +26,8 @@ import {
   Menu
 } from '@material-ui/icons';
 
+// import ProfilePicGenerator from './components/ProfilePicGenerator';
+
 const useStyles = makeStyles({
   section: {
     display: 'block',
@@ -78,6 +80,7 @@ export default function App() {
 
   return (
     <Container maxWidth="md">
+      {/* <ProfilePicGenerator /> */}
       <div className={classes.notifyBar}>
         This website will be updated frequently. Follow us on <a style={{ textDecoration: 'none', padding: '2px 10px', borderRadius: '10px', backgroundColor: 'rgba(256,256,256,.5)', color: '#1e3799' }} href="https://instagram.com/gdghubli">Instagram</a> to stay in the know
       </div>
@@ -139,7 +142,7 @@ export default function App() {
           </Grid>
           <Grid item xs={12} sm={8} md={7} component={Paper} elevation={0}>
             <p className={classes.paragraph}>
-              21st of September 2019 (Tentative)
+              28th of September 2019 (Tentative)
               </p>
           </Grid>
           <Grid item xs={12} sm={2} md={3} component={Paper} elevation={0}>
@@ -155,7 +158,7 @@ export default function App() {
           </Grid>
           <Grid item xs={12} sm={8} md={7} component={Paper} elevation={0}>
             <p className={classes.paragraph}>
-              5, including workshops, quick talks and full length sessions.
+              4 sessions, which includes workshops, full length sessions, a wtm session and 3 lightning talks of 15 mins each.
               </p>
           </Grid>
           <Grid item xs={12} sm={2} md={3} component={Paper} elevation={0}>
@@ -164,8 +167,8 @@ export default function App() {
           <Grid item xs={12} sm={8} md={7} component={Paper} elevation={0}>
             <p className={classes.paragraph}>
               You will have to be a member of GDGHubli. If you are not yet a member, click <Link href="https://www.meetup.com/GDGHubli/" rel="nofollow">here</Link> to become one.
-                If you are a member already, fill this form (<Link href="https://docs.google.com/forms/d/1pn9ytqOJoCZl6mHLqhwPc2lkiuuiu486lReVH4xaavI/viewform">Form link</Link>) and you will be confirmed regarding the registration in the last week of August.
-              </p>
+              If you are a member already, fill this form (<Link href="https://docs.google.com/forms/d/1pn9ytqOJoCZl6mHLqhwPc2lkiuuiu486lReVH4xaavI/viewform">Form link</Link>) and you will be confirmed regarding the registration by third week of September.
+            </p>
           </Grid>
           <Grid item xs={12} sm={2} md={3} component={Paper} elevation={0}>
             <h3>Call for talks</h3>

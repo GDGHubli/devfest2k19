@@ -6,3 +6,54 @@ body {
   margin: 0;
   font-family: "Google Sans", "Roboto", arial, sans-serif;
 }
+
+.overlay-image {
+  width: calc(25% - 10px);
+  margin: 5px;
+
+  &.selected-overlay-image {
+    border: 5px solid #000!important;
+  }
+}
+
+.generate-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #ed5565;
+  color: #fff;
+  border: none;
+}
+
+.profile-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#overlay-wrapper {
+  position: relative;
+  width: 108px;
+  height: 108px;
+}
+
+#uploaded-image, #overlay {
+  width: 108px;
+  height: 108px;
+  position: absolute;
+}
+
+#upload-button-overlay {
+  width: 25%;
+  padding: 5px;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#overlay-list {
+  width: 75%;
+}
