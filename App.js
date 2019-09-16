@@ -96,7 +96,7 @@ export default function App() {
               DevFests are large, community-run developer events happening around the globe focused on community building and learning about Google’s technologies.
               </p>
             <p>
-              Event date: 28th of September 2019
+              Event date: 28th and 29th of September 2019
             </p>
             {/* <p className={classes.paragraph}>
                 Hosted by GDG Hubli, WTM Hubli, DevFest Hubli will cover multiple product areas such as (but are not limited to) Android, Firebase, Google Cloud Platform, Google Assistant, Flutter, machine learning with TensorFlow, and Mobile Web.
@@ -142,7 +142,7 @@ export default function App() {
           </Grid>
           <Grid item xs={12} sm={8} md={7} component={Paper} elevation={0}>
             <p className={classes.paragraph}>
-              28th of September 2019 (Tentative)
+              28th and 29th of September 2019
               </p>
           </Grid>
           <Grid item xs={12} sm={2} md={3} component={Paper} elevation={0}>
@@ -150,7 +150,7 @@ export default function App() {
           </Grid>
           <Grid item xs={12} sm={8} md={7} component={Paper} elevation={0}>
             <p className={classes.paragraph}>
-              150
+            240+
               </p>
           </Grid>
           <Grid item xs={12} sm={2} md={3} component={Paper} elevation={0}>
@@ -158,7 +158,7 @@ export default function App() {
           </Grid>
           <Grid item xs={12} sm={8} md={7} component={Paper} elevation={0}>
             <p className={classes.paragraph}>
-              4 sessions, which includes workshops, full length sessions, a wtm session and 3 lightning talks of 15 mins each.
+              8+ sessions, which includes workshops, full length sessions, wtm sessions and 4 lightning talks of 15 mins each and 2 fun events
               </p>
           </Grid>
           <Grid item xs={12} sm={2} md={3} component={Paper} elevation={0}>
@@ -180,9 +180,9 @@ export default function App() {
                 We extremely encourage first time speakers. If you would like to give a talk. <Link href="https://docs.google.com/forms/d/1MIudTOz95tj80u_98gU1gTvHGk735jYWQLC22c0yj8o/viewform">Apply here</Link>.
               </p>
           </Grid>
-          <Grid item xs={12} sm={2} md={3} component={Paper} elevation={0}>
+          {/* <Grid item xs={12} sm={2} md={3} component={Paper} elevation={0}>
             <h3>More details coming soon...</h3>
-          </Grid>
+          </Grid> */}
         </Grid>
       </section>
       {/* <section className={classes.section}>
